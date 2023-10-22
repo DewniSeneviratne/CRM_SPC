@@ -233,6 +233,10 @@ namespace spc
             stock i = new stock();
             i.Show();
         }
+        
+        //
+        //button3
+        //
 
         private void button3_Click_1(object sender, EventArgs e)
         {
@@ -241,6 +245,10 @@ namespace spc
             d.Show();
         }
 
+        //
+        //button1
+        //
+        
         private void button1_Click_1(object sender, EventArgs e)
         {
             this.Close();
@@ -248,6 +256,10 @@ namespace spc
             c.Show();
         }
 
+        //
+        //button4
+        //
+        
         private void button4_Click_1(object sender, EventArgs e)
         {
             this.Close();
@@ -255,6 +267,10 @@ namespace spc
             p.Show();
         }
 
+        //
+        //button5
+        //
+        
         private void button5_Click_1(object sender, EventArgs e)
         {
             this.Close();
@@ -345,6 +361,10 @@ namespace spc
             }
         }
 
+        //
+        //button6
+        //
+        
         private void button6_Click_1(object sender, EventArgs e)
         {
             this.Close();
