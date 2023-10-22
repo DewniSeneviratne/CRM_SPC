@@ -99,7 +99,10 @@ namespace spc
             dataGridView1.Hide();
 
         }
-
+        
+        //
+        //button10
+        //
         private void button10_Click(object sender, EventArgs e)
         {
             string cid = textBox1.Text;
@@ -182,6 +185,10 @@ namespace spc
             }
         }
 
+        //
+        //button11
+        //
+        
         private void button11_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -196,6 +203,10 @@ namespace spc
                 // You can use this path to do further processing, like displaying the image or saving it.
             }
         }
+
+        //
+        //button7
+        //
 
         private void button7_Click_1(object sender, EventArgs e)
         {
@@ -212,6 +223,10 @@ namespace spc
             LoadPrescriptionData();
         }
 
+        //
+        //button2
+        //
+        
         private void button2_Click_1(object sender, EventArgs e)
         {
             this.Close();
