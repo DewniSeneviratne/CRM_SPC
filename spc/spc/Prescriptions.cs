@@ -22,35 +22,49 @@ namespace spc
             dbHelper = new DatabaseHelper();
         }
 
+        //
+        //button1
+        //
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
             stock s = new stock();
             s.Show();
         }
-
+        
+        //
+        //button3
+        //
         private void button3_Click(object sender, EventArgs e)
         {
             this.Close();
             Delivery d = new Delivery();
            d.Show();
         }
-
-      
+        
+        //
+        //button4
+        //
         private void button4_Click(object sender, EventArgs e)
         {
             this.Close();
             Prescriptions p = new Prescriptions();
             p.Show();
         }
-
+        
+        //
+        //button5
+        //
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
             staff i = new staff();
             i.Show();
         }
-
+        
+        //
+        //button6
+        //
         private void button6_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -58,6 +72,9 @@ namespace spc
             i.Show();
         }
 
+        //
+        //pictureBox1
+        //
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -65,7 +82,9 @@ namespace spc
             i.Show();
         }
 
-       
+        //
+        //button9
+        //
 
         private void button9_Click(object sender, EventArgs e)
         {
